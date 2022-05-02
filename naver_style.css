@@ -1,0 +1,78 @@
+body{background: #f3f4f5;}
+.space{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+li{display: block;}
+.box{
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 30rem; height: 5rem;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+    font-size: smaller;
+    text-align: left;
+    margin: 10px 0 15px;
+}
+.necc{ color: green; font-size: small }
+.sel{ color: gray; font-size: small }
+.promo{
+    width: 500px;
+    font-size: smaller;
+    padding-top: 10px;
+    color: #666;
+}
+.btn_child{
+    text-decoration-line: none;
+    border: 1px solid green; color: green;
+    padding: 5px;
+    font-size: small;
+    margin-left: 8rem;
+}
+.btn_a{text-decoration-line: none; color: white; font-size: larger}
+.footer{text-decoration-line: none; color: black;}
+button{
+    width: 15rem; height: 3rem;
+    border: 0; outline: 0;
+}
+
+.allchk input[type="checkbox"] {display: none;}
+.allchk input[type="checkbox"]+label{
+    display: inline-block; width: 24px; height: 24px;
+    background: url("https://static.nid.naver.com/images/ui/myinfo/pc_check_off_24.png");
+    cursor: pointer;
+}
+.allchk input[type="checkbox"]:checked+label{
+    background:url("https://static.nid.naver.com/images/ui/myinfo/pc_check_on_l_24.png");
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+}
+.allchk{position: relative; padding-bottom: 30px;}
+.allchk input[type="checkbox"]+label span{
+    position: absolute; display: block; font-weight: bold; margin-left: 32px;
+}
+
+
+.indchk input[type="checkbox"] {display: none;}
+.indchk input[type="checkbox"]+label{
+    display: inline-block; width: 20px; height: 20px;
+    background: url("https://static.nid.naver.com/images/ui/myinfo/pc_chcek_off_s_20.png");
+    cursor: pointer;
+}
+.indchk input[type="checkbox"]:checked+label{
+    background:url("https://static.nid.naver.com/images/ui/myinfo/pc_chcek_on_s_20.png");
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+}
+.indchk{position: relative; }
+.indchk input[type="checkbox"]+label span{
+    position: absolute; display: block; font-weight: bold; margin-left: 32px;
+}
+.indchk input[type="checkbox"]+label span span{
+    position: absolute; display: inline-block; font-weight: bold;
+}
+.indchk input[type="checkbox"]+label p{
+    position: absolute; display: block; font-weight: bold; margin-left: 32px;
+}
