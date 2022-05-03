@@ -1,0 +1,33 @@
+body{background: #f3f4f5;}
+.space{
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box_birth{
+    width: 30%; height: 3rem;
+    border: 1px solid darkgray;
+    margin: 5px 1px 10px 1px;
+}
+.box_phone{
+    width: 312px;
+    border: 1px solid darkgray;
+    margin: 5px;
+}
+.btn_a {text-decoration-line: none; color: white; font-size: 14px;}
+button{
+    height: 3.2rem;
+    border: 0; outline: 0;
+    background-color: #0bd03a;
+    padding: 10px;
+    color: white; font-size: 18px;
+}
+.footer{text-decoration-line: none; color: gray; font-size: small}
+input, select{
+    border: 1px solid #d8d8d9;
+    width: 450px; height: 3rem;
+    margin: 8px 0 13px 0;
+    padding-left: 5px;
+}
+span{font-size:14px; font-weight: bold}

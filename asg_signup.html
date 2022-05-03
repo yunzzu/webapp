@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>네이버 : 회원가입</title>
+    <link rel="stylesheet" href="naver_style2.css">
+</head>
+
+<body>
+    <div class="space">
+        <!--header-->
+        <div style="text-align: center; padding-top: 50px">
+            <a href="https://www.naver.com/"><img src="naver.png" style="width: 10rem"></a>
+        </div>
+
+        <!--contents-->
+        <div style="margin-top: 30px;">
+            <!--id+pw-->
+            <div>
+                <span><b>아이디</b></span><br>
+                <input type="text" name="id" maxlength="20"><br>
+                <span><b>비밀번호</b></span><br>
+                <input type="password" name="pw" maxlength="20"><br>
+                <span><b>비밀번호 재확인</b></span><br>
+                <input type="password" name="pw2" maxlength="20"><br><br>
+            </div>
+
+            <!--user info-->
+            <div>
+                <span>이름</span><br>
+                <input type="text" name="username" maxlength="20"><br>
+
+                <span>생년월일</span><br>
+                <input type="number" name="birth_year" maxlength="4" class="box_birth">
+                <select name="birth_month" class="box_birth">
+                    <option>월</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <input type="number" name="birth_date" maxlength="2" class="box_birth"><br>
+
+                <span>성별</span><br>
+                <select name="sex">
+                    <option>성별</option>
+                    <option>여성</option>
+                    <option>남성</option>
+                    <option>선택안함</option>
+                </select><br>
+
+                <span>본인 확인 이메일<span style="color: gray; font-size: small; font-weight: normal;">(선택)</span></span>
+                <input type="email" name="email" maxlength="20"><br><br>
+            </div>
+
+            <!--phone-->
+            <div>
+                <span name="phone">휴대전화</span><br>
+                <select>
+                    <option>대한민국 +82</option>
+                    <option>가나 +233</option>
+                    <option>가봉 +241</option>
+                    <option>감비아 +220</option>
+                    <option>그리스 +30</option>
+                    <option>나이지리아 +234</option>
+                    <option>남아프리카공화국 +27</option>
+                    <option>네덜란드 +31</option>
+                    <option>네팔 +977</option>
+                    <option>노르웨이 +47</option>
+                    <option>덴마크 +45</option>
+                    <option>독일 +49</option>
+                    <option>말레이시아 +60</option>
+                    <option>멕시코 +52</option>
+                    <option>베트남 +84</option>
+                    <option>벨기에 +32</option>
+                    <option>벨라루스 +375</option>
+                    <option>부룬디 +257</option>
+                    <option>브라질 +55</option>
+                    <option>브루나이 +673</option>
+                    <option>아이슬란드 +354</option>
+                    <option>에콰도르 +593</option>
+                </select><br>
+                <input type="tel" maxlength="16" class="box_phone">
+                <button type="button" style="width: 25%">
+                    <a href="asg_signup.html" class="btn_a">인증번호 받기</a>
+                </button>
+                <input type="tel" maxlength="4"><br>
+            </div>
+
+            <!--button-->
+            <div>
+                <button type="button" style="width: 450px; margin-top: 25px">가입하기</button>
+                <!--<input type="submit" value="가입하기">-->
+                <br>
+            </div>
+
+            <!--footer-->
+            <div style="width: 450px; text-align: center; padding-bottom: 20px">
+                <div style="margin-top: 3rem; font-size: 12px; text-align: center">
+                    <span><a href="https://policy.naver.com/rules/service.html" class="footer">이용약관</a></span> |
+                    <span><b><a href="https://policy.naver.com/policy/privacy.html" class="footer">개인정보처리방침</a> </b></span> |
+                    <span><a href="https://policy.naver.com/rules/disclaimer.html" class="footer">책임의 한계와 법적고지</a></span> |
+                    <span><a href="https://help.naver.com/support/service/main.help?serviceNo=532&_membership_p.membership_p.membership_26&from=alias" class="footer">회원정보 고객센터</a></span>
+                </div>
+                <span style="font-size: 8px; color: gray">ⓒ NAVER Corp.</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
