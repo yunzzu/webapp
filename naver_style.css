@@ -16,7 +16,7 @@ li{display: block;}
     text-align: left;
     margin: 10px 0 15px;
 }
-.necc{ color: green; font-size: small; font-weight: normal }
+.necc{ }
 .sel{ color: gray; font-size: small }
 .promo{
     width: 30rem; padding-top: 10px;
@@ -53,8 +53,9 @@ button{
     font-weight: bold; text-decoration: underline;
 }
 
-.indchk{position: relative; }
+.indchk{position: relative; display: block;}
 .indchk input[type="checkbox"] {display: none;}
+
 .indchk input[type="checkbox"]+label{
     display: inline-block; width: 20px; height: 20px;
     background: url("https://static.nid.naver.com/images/ui/myinfo/pc_chcek_off_s_20.png");
@@ -67,10 +68,14 @@ button{
     background-position: 0 1px;
 }
 
-.indchk input[type="checkbox"]+label #text{
-    font-weight: bold;
+.indchk input[type="checkbox"]+label span{
+    position: absolute; display: block;
+    font-weight: bold; margin-left: 28px;
 }
-
+.indchk input[type="checkbox"]+label span span{
+    display: inline-block; position: relative; margin-left: 0;
+    color: green; font-size: small; font-weight: normal;
+}
 
 
 
