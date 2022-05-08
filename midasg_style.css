@@ -85,7 +85,7 @@ hr{border: 1px solid #f1f1f1;}
 .content_box{
     display: block; background-color: #d8ede0;
     line-height: 240%; font-size: 15px;
-    margin: 24px -32px;
+    margin: 24px -21px 0 -27px;
     padding: 35px 0 25px 25px;
 }
 .ex_box{
@@ -104,18 +104,24 @@ hr{border: 1px solid #f1f1f1;}
     font-family: 'Source Sans Pro', sans-serif;
 }
 .ad{
-    width: 13%; float: right; padding-right: 14px;
+    width: 13%; float: right; padding-right: 15px;
     border-bottom: 1px solid #f1f1f1;
 }
 .ad_area{
-    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 12px; font-family: 'Source Sans Pro',sans-serif; color: white; font-weight: bold;
     border-radius: 5px;
-    color: white;
     padding-top: 25px;
-    margin: 0 auto 32px auto;
-    max-width: 230px;
-    background-color: #282A35;
-    text-align: center; font-weight: bold;
+    margin: 0 -5px 32px -5px;
+    max-width: 250px;
+    text-align: center;
+}
+.icon{color: black; font-size: 2em; margin-right: -3px; }
+.start_btn{
+    background-color: #04AA6d;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 32.4px;
+    color: white; font-size: 15px;
 }
 
 button{
@@ -142,6 +148,10 @@ button:hover{ background-color: #04a96d; color: white; }
 .btn_3parts:hover{ background-color: black; color: white; }
 .btn_4parts{width: 24%; background-color: #e7e9eb; color: black; padding: 15px; font-weight: normal;}
 .btn_4parts:hover{ background-color: black; color: white; }
+.yellow_new{
+    background-color: #fff4a3; color: black;
+    padding: 6px 20px; border-radius: 25px;
+}
 
 #w3_cert_arrow {
     position: absolute;
